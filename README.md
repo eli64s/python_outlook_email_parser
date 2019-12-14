@@ -13,3 +13,5 @@ The code can be broken down into the following 3 sections:
 
 Over time, the collection of this data may yield some interesting insights into events that impact travel.
 Feel free to ask questions or leave suggestions/critique, I love to learn other's approaches to problems!
+
+![TravelWaiverImage](https://raw.githubusercontent.com/eli64s/Python-Email-Scraper/master/travel_waiver.PNG)
