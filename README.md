@@ -1,15 +1,14 @@
 # Python Microsoft Outlook Email Scraper
-This script extracts unstructured data from Microsoft Outlook emails regarding Travel Waivers
-that United Airlines sends out related to events/weather/etc. that may impact travel. I have 
-attached an example image below of what a Travel Waiver looks like in my mailbox. 
+This notebook extracts unstructured data from Microsoft Outlook emails regarding Travel Waivers
+that United Airlines sends out related to events that may impede travel plans such as severe weather/epidemics/etc. 
 
 The email data is cleaned and manipulated into a DataFrame that includes the Travel Waiver's
-date sent, event name, severity level, cities impacted, and dates affected. 
+issued date, event name, category, severity level, cities impacted, and dates that its issued for. 
 
 The code can be broken down into the following 3 sections:
 
-    1. Scrape Outlook to collect all Travel Waiver emails
-    2. Create classes/functions used to parse the emails 
+    1. Data mine Outlook to collect all Travel Waiver emails
+    2. Create classes/functions to parse data from email 
     3. Iterate over the data set to clean and structure it
 
 Over time, the collection of this data may yield some interesting insights into events that impact travel.
